@@ -38,6 +38,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="Name"
                 onChange={onChange}
                 value={form.name}
+                required
               />
             </td>
             <td>
@@ -48,6 +49,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="Cuisine"
                 onChange={onChange}
                 value={form.cuisine}
+                required
               />
             </td>
             <td>
@@ -58,6 +60,7 @@ function RecipeCreate({ createRecipe }) {
                 placeholder="URL"
                 onChange={onChange}
                 value={form.photo}
+                required
               />
             </td>
             <td>
@@ -69,6 +72,7 @@ function RecipeCreate({ createRecipe }) {
                 onChange={onChange}
                 value={form.ingredients}
                 rows={3}
+                required
                />
             </td>
             <td>
@@ -80,6 +84,7 @@ function RecipeCreate({ createRecipe }) {
                 onChange={onChange}
                 value={form.preparation}
                 rows={3}
+                required
               />
             </td>
             <td>
