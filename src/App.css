@@ -76,7 +76,7 @@ tr th:nth-child(6),
 tr td:nth-child(1),
 tr td:nth-child(2),
 tr td:nth-child(3),
-tr td:nth-child(6), {
+tr td:nth-child(6) {
   width: 10%
 }
 
